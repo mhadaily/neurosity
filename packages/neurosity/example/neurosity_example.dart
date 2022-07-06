@@ -46,6 +46,14 @@ Future<void> main() async {
     print('awareness $metric');
   });
 
+  // neurosity.focus().listen((metric) {
+  //   print('focus $metric');
+  // });
+
+  // neurosity.calm().listen((metric) {
+  //   print('calm $metric');
+  // });
+
   // neurosity.kinesis(KinesisLabel.tongue).listen((metric) {
   //   print('kinesis $metric');
   // });
