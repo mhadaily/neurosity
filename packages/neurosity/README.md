@@ -122,3 +122,9 @@ Future<void> main() async {
 }
 
 ```
+
+## Quick test
+
+You can run `dart run --define EMAIL=XXX --define PASSWORD=XXX --define DEVICE=XXX example/neurosity_example.dart`
+
+Replace XXX with valid credentials.
